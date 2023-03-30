@@ -23,9 +23,7 @@ public class tttGame extends JPanel {
 		
 	}
 	
-	// a method used to create 9 buttons
-	// set the text, add action listeners
-	// and add them to the screen
+	
 	public void initializeButtons()
     {
         for(int i = 0; i <= 8; i++)
@@ -55,12 +53,12 @@ public class tttGame extends JPanel {
 				}
 			});
             
-            add(buttons[i]); //adds this button to JPanel        
+            add(buttons[i]);      
         }
     }
 	
 	
-	// display the victorious player
+	
 	
 	public void displayVictor() {
 		
